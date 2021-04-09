@@ -9,38 +9,18 @@ import org.testng.annotations.Test;
 public class TestNGOne {
 	
 	@BeforeClass
-	public void tc() {
+	public void tc345678() {
 		System.out.println(123);
 	}
 	@AfterClass
-	public void tc1() {
+	public void tc1098765() {
 		System.out.println(12345);
 	}
-	@BeforeMethod
-	public void tc2() {
-		System.out.println(123123);
-	}
-	@AfterMethod
-	public void tc3() {
-		System.out.println("1234567asdfg");
-	}
-	@Test
-	public void tc4() {
-		System.out.println("asdf");
-	}
-	@Test
-	public void tc5() {
-		System.out.println("tc5");
-	}
-	@Test
-	public void tc6() {
-		System.out.println("tc6");
-}
-	@Test
-	public void tc7() {
+	
+	public void tc7654() {
 		System.out.println("tc7");
 }
 	@Test
-	public void tc8() {
+	public void tc9876548() {
 		System.out.println("tc8");
 	}}
